@@ -5,6 +5,16 @@ public class User {
     private String password;
     private Integer number;
     private int a;
+    private int b ;
+    int c;
+
+    public int getB() {
+        return b;
+    }
+
+    public void setB(int b) {
+        this.b = b;
+    }
 
     public Integer getNumber() {
         return number;
