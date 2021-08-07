@@ -4,9 +4,18 @@ public class User {
     private String username;
     private String password;
     private Integer number;
+    private int a;
 
     public Integer getNumber() {
         return number;
+    }
+
+    public int getA() {
+        return a;
+    }
+
+    public void setA(int a) {
+        this.a = a;
     }
 
     public void setNumber(Integer number) {
